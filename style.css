@@ -1,0 +1,60 @@
+/* Basic CSS styles for the stopwatch */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;   
+    background: #333;
+  }
+  
+  .stopwatch {
+    margin: auto;
+    width: 300px;     
+  }
+  
+  h2 {
+    font-size: 2em;
+  }
+  
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    
+
+  }
+  
+  #laps {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  #reset{
+    background: red;
+    color: #fff;
+  }
+  #startPause{
+    background: green;
+    color: #fff;
+  }
+  #lap {
+    background: skyblue;
+    color: #fff;
+  }
+  .stopwatch  {
+    width: 50%; /* Set width as per your requirement */
+    max-width: 400px; /* Maximum width for responsiveness */
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid #FF702A;
+    border-width: 10px;
+    text-align: center;
+    background: #fff;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .box {
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  }
